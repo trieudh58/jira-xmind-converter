@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  .container-fluid
+    .row
+      .col-xs-6.col-xs-offset-3
+        form(method="POST", action="/xmind/download", target="_blank")
+          .input-group
+            input.form-control(type="text", placeholder="Sprint name, please?", name="sprintName")
+            span.input-group-btn
+              input.btn.btn-success(type="submit", value="Download Xmind")

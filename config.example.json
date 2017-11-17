@@ -1,0 +1,8 @@
+{
+  "user": "",
+  "pass": "",
+  "protocol": "https",
+  "host": "dgmteam.atlassian.net",
+  "port": 443,
+  "apiVersion": "2"
+}
